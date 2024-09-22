@@ -8,10 +8,9 @@ public class Efemeride {
 	private Mes mes;
 	private int dia;
 	private String detalle;
-	
+		
 	
 	public Efemeride(int código, String nombre, Mes mes, int dia, String detalle) {
-		super();
 		this.código = código;
 		this.nombre = nombre;
 		this.mes = mes;
